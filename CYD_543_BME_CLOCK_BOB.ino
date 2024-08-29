@@ -7,7 +7,7 @@
 // Originally based on Larry Banks bb_spi_lcd and CYD_Projects repo
 ##########################################################################################
 // Rewrittain to use BME/BMP280 sensor connected to board.
-//Board is JC4827W543 from Guiton on Ali express.
+//Board is JC4827W543 from Guition on Ali express.
 
 //https://github.com/bitbank2/CYD_Projects
 //https://github.com/bitbank2/bb_spi_lcd
@@ -52,7 +52,7 @@ HTTPClient http;
 
 bool firstBMEUpdateDone = false;
 bool firstInternetTimeUpdateDone = false;
-bool dateUpdatedToday = false;/////////////////////////////////////////////////////////////////////////////////////
+bool dateUpdatedToday = false;
 
 unsigned long previousMillisBME = 0;
 unsigned long previousMillisInternetTime = 0;
