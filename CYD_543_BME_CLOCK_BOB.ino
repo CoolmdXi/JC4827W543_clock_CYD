@@ -42,8 +42,8 @@ HTTPClient http;
 //#define FONT Roboto_Thin66pt7b
 //#define FONT_GLYPHS Roboto_Thin66pt7bGlyphs
 
-#define SDA_PIN 17
-#define SCL_PIN 18
+#define SDA_PIN 17 // connections to BME sensor
+#define SCL_PIN 18 // connections to BME sensor
 
 #define WIFI_SSID "your ssd"
 #define WIFI_PWD "PASSWORD"
